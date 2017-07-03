@@ -4,7 +4,7 @@
 
   - On the generated graphs, run the SpaceTimeEmb algorithm taking a time window of 5 to get the representation of every node.
   - Generate a file manually that will have the contents as:
-  representation|domain/labels. (domain/labels - Database, Data Mining, Artificial Intelligence, Information Analysis)
+   representation|domain/labels. (domain/labels - Database, Data Mining, Artificial Intelligence, Information Analysis)
   - Perform the classification. Taking some percentage of the file (say 75%) and prediction on the rest (25%). Input will be the representation and output will be one of the 4 classes.
   - Find out the Macro F1- score for the analysis.
  
