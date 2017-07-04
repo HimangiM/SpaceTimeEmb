@@ -17,7 +17,8 @@
 - Dataset:
   - 45 graphs : [1969, 1971, 1973, 1975, 1976, 1977....2017] 
   - Links between the author based on their papers (if A has a paper with B, a link exists between A and B)
-  - Format of the file : author|title|booktitle/conference|domain/label
+  - Format of the file :
+  author|title|booktitle/conference|domain/label
   - Data of ‘inproceedings’ is utilised.
   - Labels were defined with reference to the paper : ```https://pdfs.semanticscholar.org/2fb3/6ecf864f40e84f2e50a5152107e16a03fb21.pdf```
  
