@@ -1,4 +1,4 @@
-# SpaceTimeEmb
+# SpaceTimeEmb Updates
 
 ### 3 July, 2017
 
