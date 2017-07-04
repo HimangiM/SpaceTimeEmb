@@ -12,6 +12,8 @@
 
   - On the generated graphs, run the SpaceTimeEmb algorithm taking a time window of 5 to get the representation of every node.  
   
+  
+  
 ### 2 July, 2017  
 ### DBLP Dataset
  
