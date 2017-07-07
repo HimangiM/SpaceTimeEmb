@@ -1,18 +1,19 @@
 # SpaceTimeEmb Updates
 
+### 7 July, 2017
+  - Binary classification using SVM: (disciplinary - 0, inter-disciplianry - 1)
+    - Total users : 165,861
+    - Result for 75% training, 25% testing - 0.886771976366
+    - Assumptions - Time window of 5 taken from 1969, 1971, 1973, 74, 75 and so on. Experiment of taking the time window with respect to the user to be done.
+                  - Ignoring the node if not present at some time point, creating a virtual node in place of it to be done.
+                 
+
 ### 4 July, 2017
   - Generate a file manually that will have the contents as:
-    author|representation|domain/labels. (domain/labels - Database, Data Mining, Artificial Intelligence, Information Analysis)
-  - Perform the classification. Taking some percentage of the file (say 75%) and prediction on the rest (25%). Input will be       the representation and output will be one of the 4 classes.
-  - Find out the Macro F1- score for the analysis.
-  - Experiment:
-    Considering the time window with respect to the user node i.e, when the user published his first paper, from thereafter         taking the window.
-  
+    representation|domain/labels. (domain/labels - disciplinary, inter-disciplinary)
+ 
 ### 3 July, 2017
-
-  - On the generated graphs, run the SpaceTimeEmb algorithm taking a time window of 5 to get the representation of every node.  
-  
-  
+  - On the generated graphs, run the SpaceTimeEmb algorithm taking a time window of 5 to get the representation of every node. 
   
 ### 2 July, 2017  
 ### DBLP Dataset
