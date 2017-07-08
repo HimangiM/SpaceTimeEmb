@@ -4,7 +4,7 @@
   - Binary classification using SVM: (disciplinary - 0, inter-disciplianry - 1)
     - Total users : 165,861
     - Five-fold cross validation
-    - Result for 75% training, 25% testing -  88.8576%
+    - Result : 88.8576%
     - Assumptions :
       - Time window of 5 taken from 1969, 1971, 1973, 74, 75 and so on. Experiment of taking the time window with respect to the user to be done.
       - Ignoring the node if not present at some time point, creating a virtual node in place of it to be done.
