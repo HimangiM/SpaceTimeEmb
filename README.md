@@ -2,7 +2,7 @@
 
 ### 7 July, 2017
   - Binary classification using SVM: (disciplinary - 0, inter-disciplianry - 1)
-    - Total users : 165,861
+    - Total users : 57,954
     - Five-fold cross validation
     - Result : 88.8576%
     - Assumptions :
