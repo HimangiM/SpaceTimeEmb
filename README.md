@@ -2,6 +2,7 @@
 
 ### 12 July, 2017
    - Neural Network 
+      - Dataset : 5047 disciplinary, 4373 inter-disciplinary (9400 data points)
       - Tuning the parameters (according to DeepWalk paper)
          - representation size : 128
          - walk length : 80
@@ -12,9 +13,9 @@
 
 ### 11 July, 2017
    -Neural Network 
-      - Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
-      - Result : 66% (approximately same for one and two hidden layers, nodes in a hidden layer, tuning the learning rate) 
-
+      - Dataset : 8040 random disciplinary points, 7360 inter disciplinary (15400 data points)
+      - Result : 66%
+      
 ### 10 July, 2017 (uniform dataset)
    - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
       - Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
