@@ -12,8 +12,8 @@
 
 ### 11 July, 2017
    -Neural Network (TensorFlow) 
-    -Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
-    -Result : 66% (approximately same for one and two hidden layers, nodes in a hidden layer, tuning the learning rate) 
+      -Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
+      -Result : 66% (approximately same for one and two hidden layers, nodes in a hidden layer, tuning the learning rate) 
 
 ### 10 July, 2017 (uniform dataset)
    - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
