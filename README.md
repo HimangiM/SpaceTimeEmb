@@ -1,7 +1,7 @@
 # SpaceTimeEmb Updates
 
 ### 12 July, 2017
-   - Neural Network 
+   - Neural Network (TensorFlow)
       - Dataset : 5047 random disciplinary, 4373 inter-disciplinary (9400 data points)
       - Tuning the parameters (according to DeepWalk paper)
          - representation size : 128
@@ -12,7 +12,7 @@
      - Result: 73% (one hidden layer)
 
 ### 11 July, 2017
-   - Neural Network
+   - Neural Network (TensorFlow)
       - Dataset : 8040 random disciplinary points, 7360 inter-disciplinary (15400 data points)
       - Result : 66%
       
