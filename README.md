@@ -12,9 +12,10 @@
      - Result: 73% (one hidden layer)
 
 ### 11 July, 2017
-      -Neural Network 
-         - Dataset : 8040 random disciplinary points, 7360 inter disciplinary (15400 data points)
-         - Result : 66%
+   -Neural Network
+   
+      - Dataset : 8040 random disciplinary points, 7360 inter disciplinary (15400 data points)
+      - Result : 66%
       
 ### 10 July, 2017 (uniform dataset)
    - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
