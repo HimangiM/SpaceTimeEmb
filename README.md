@@ -1,7 +1,27 @@
 # SpaceTimeEmb Updates
 
-### 7 July, 2017
-  - Binary classification using SVM: (disciplinary - 0, inter-disciplianry - 1)
+### 12 July, 2017
+   - Neural Network 
+    - Tuning the parameters (according to DeepWalk paper)
+      - representation size : 128
+      - walk length : 80
+      - number of walks per node : 10
+      - time window : 10
+      - context size/vocabulary window size: 10
+     - Result: 73% (one hidden layer)
+
+### 11 July, 2017
+   -Neural Network (TensorFlow) 
+    -Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
+    -Result : 66% (approximately same for one and two hidden layers, nodes in a hidden layer, tuning the learning rate) 
+
+### 10 July, 2017 (uniform dataset)
+   - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
+    -Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
+    -Result : 52%
+
+### 7 July, 2017 (skewed dataset)
+  - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
     - Total users : 57,954
     - Five-fold cross validation
     - Result : 88.8576%
