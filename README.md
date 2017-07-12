@@ -11,7 +11,7 @@
      - Result: 73% (one hidden layer)
 
 ### 11 July, 2017
-   -Neural Network (TensorFlow)
+   -Neural Network 
       - Dataset - 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
       - Result : 66% (approximately same for one and two hidden layers, nodes in a hidden layer, tuning the learning rate) 
 
