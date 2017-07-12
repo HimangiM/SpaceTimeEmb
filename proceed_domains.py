@@ -1,5 +1,5 @@
 #creates the labels for the dataset
-#file stored in the format author|title|booktitle|domains
+#format author|title|booktitle|domains
 #on yearly basis
 
 import os 
