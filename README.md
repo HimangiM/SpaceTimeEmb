@@ -14,12 +14,12 @@
 ### 11 July, 2017
    - Neural Network (TensorFlow)
       - Dataset : 8040 random disciplinary points, 7360 inter-disciplinary (15400 data points)
-      - Result : 66%
+      - Result : 68%
       
 ### 10 July, 2017 (uniform dataset)
    - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
       - Dataset : 8040 random disciplinary points, 7360 inter discipinary (15400 data points)
-      - Result : 52%
+      - Result : 66%
 
 ### 7 July, 2017 (skewed dataset)
   - Binary classification using SVM: (disciplinary - 0, inter-disciplinary - 1)
