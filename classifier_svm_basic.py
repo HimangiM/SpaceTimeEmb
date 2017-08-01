@@ -92,37 +92,3 @@ if __name__=='__main__':
 
 		clf.predict(x_test)
 		print clf.score(x_test, y_test)
-
-
-'''
-	#print data_y
-	X_train = data_x[:-41465]
-	y_train = data_y[:-41465]
-
-	#print data_x[-0]
-	#print y
-
-	clf = svm.SVC()
-	clf.fit(X_train, y_train)
-
-	X_test = data_x[-41465:]
-	y_test = data_y[-41465:]
-
-	print clf.predict(X_test)
-
-	print clf.score(X_test, y_test)
-	
-
-#Total data length = 165861
-#Results = 0.886771976366
-
-#f1-score find out, five-fold cross-validation,tr, and test, bias ho sakta hai-points aise hai ki train and test mai similar points, testing mai better performance,
-#test point trainig se bohot similar, classificatoin achi hai lagega,but something fishy, what is the right training testing set
-#data_points in traiining and testing to be changed
-
-#index randomly array
-multiple times training and testing - random permute. q.np.random.permutation- first 75% points
-q[i[:a]]
-np.random.permutation() - one-fold : 75% points - forst 75
-q[np.random.permutation(1000)][:int(0.75*q.shape[0])
-'''
