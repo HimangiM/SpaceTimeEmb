@@ -1,5 +1,4 @@
 #implements a svm 
-#ignores the node if not present
 #time window of 5 taken normally, not wrt user
 import os
 import glob
